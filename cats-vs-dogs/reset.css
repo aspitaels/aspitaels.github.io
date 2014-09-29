@@ -75,3 +75,32 @@ html[xmlns] .clearfix { display: block; }
 
 
 /*======================start here========================*/
+h1{
+	font-family:georgia;
+	font-style:bold;
+	font-size:22px;
+}
+
+p{
+font-family:georgia;	
+font-size;18px
+
+}
+
+ul{
+	list-style:none;
+}
+
+li{	font-family:georgia;
+	text-transform:uppercase;
+	font-size:24px;
+}
+footer{
+	font-family:georgia:
+	font-size:12px
+	
+}
+
+em{
+	color:red;
+}
