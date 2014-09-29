@@ -87,7 +87,7 @@ font-size;18px
 
 }
 
-ul{
+nav,ul,li,a{
 	list-style:none;
 }
 
