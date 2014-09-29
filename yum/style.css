@@ -53,3 +53,37 @@ table {
 
 /* END RESET */
 /*=================start here===================*/
+ul {
+	line-height:1.3em;
+	font-family:arial;
+	font-size:17px;
+	
+}
+ em{
+	font-family:arial;
+	font-style:italic;
+	font-size:17px;
+	
+}
+
+h1 {
+	line-height:1.3em;
+	font-size:40px;
+	font-family:arial;
+	text-transform:uppercase;
+	color:white;
+	background:black;
+	padding:20px;
+	letter-spacing:.05em;
+}
+aside{
+	text-transform:uppercase;
+	letter-spacing:.05em;
+	
+}
+ol{
+	
+	line-height:1.3em;
+	font-family:georgia;
+	font-size:17px;
+}
