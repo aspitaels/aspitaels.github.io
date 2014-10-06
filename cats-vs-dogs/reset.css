@@ -78,7 +78,8 @@ html[xmlns] .clearfix { display: block; }
 h1{
 	font-family:georgia;
 	font-style:bold;
-	font-size:22px;
+	font-size:25px;
+	padding:10px 0px 10px 0px;
 }
 
 
@@ -93,7 +94,7 @@ body{
 }
 
 #logo{
-	padding:10px;
+	padding:20px;
 	display:inline-block;
 	}
 header{
@@ -111,6 +112,7 @@ a{
 	text-align:center;
 	border-top: 4px solid black; 
 	border-bottom: 4px solid black;
+	margin:0px 90px 0px 90px;
 
 	
 }
@@ -119,7 +121,7 @@ section{clear:both}
 
 #articles{
 	float:left;
-	padding:20px 0px 0px 0px;
+	padding:20px 0px 20px 0px;
 
 	
 }
@@ -150,7 +152,8 @@ a{list-style:none;
 
 p{
 font-family:georgia;	
-font-size;18px
+font-size:17px;
+line-height:1.3em;
 }
 
 
@@ -169,8 +172,18 @@ footer{
 	clear:both;
 	font-family:georgia;
 	font-size:12px;
-	
-	
+	border-top: 4px solid black;
+	padding:10px;
+	margin: 0px 90px 0px 90px;
+		
+}
+
+#sources{
+	float:left;
+}
+
+#copyright{
+	float:right;
 }
 
 em{
