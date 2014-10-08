@@ -53,3 +53,11 @@ table {
 /* -----------------END RESET---------------- */
 
 
+#llama1{float:left;
+	width:40%;
+	margin:40px 10px 0px 80px;}
+
+#llama2{float:right;
+	width:40%;
+	margin:40px 80px 0px 10px;}
+
