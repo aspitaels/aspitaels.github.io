@@ -50,3 +50,25 @@ table {
 	border-spacing: 0;
 }
 
+/*====================START HERE======================*/
+
+body{margin: 20px 200px 20px 200px;}
+
+li{list-style:none;}
+
+a{list-style:none;
+	text-decoration:none;}
+
+#topnav{float:right;}
+
+#logo{float:left;
+	background:green;}
+
+#main-menu{float:left;
+	text-transform: uppercase;
+	background:gray;
+	color:black;}
+	
+	#page{background:white;}
+
+article{clear:both}
