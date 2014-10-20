@@ -57,7 +57,7 @@ body{
 width:100%;}
 
 #site-header{background-color:#eff4da;
-	width:100%;
+	width:80%;
 	height:150px;
 	margin:0 auto;}
 
@@ -66,12 +66,11 @@ width:100%;}
 
 
 #logo{float:left;
-	margin:10px 0px 0px 250px;}
+	}
 #topnav{float:right;}
 
 header nav {
 	float:right;
-	margin: 5px 275px 0px 0px;
 	font-family:arial;
 	color:#885c32;
 }
@@ -84,6 +83,8 @@ header nav a{
 }
 
 #menu-wrapper{background-color:#885c32;
+	height:40px;
+	padding:5px;
 	
 }
 
@@ -91,11 +92,13 @@ header nav a{
 	background:#eff4da;}
 
 #main-menu{
+	
 	margin:0 auto;
-	width:700px;
+	width:80%;
 }
 
 #main-menu ul li a{
+	
 	
 	float:left;
 	text-decoration:none;
@@ -108,12 +111,13 @@ header nav a{
 }
 	
 	#content-wrapper{
-		margin: 30px 0px 30px 0px;
+		width:80%;
+		margin:0px auto;
 	}
 	
 	article{width:400px;
 		float:left;
-		margin:5px 15px 5px 250px}
+	}
 	
 	article h1{
 		color:#885c32;
@@ -142,14 +146,11 @@ header nav a{
 	
 	}
 	
-	#page{background:white;
-		width:500px;}
+	#page{background:white;}
 		
 	
-	#sidebar{float:right;
-		width:300px;}
+	#sidebar{float:right;}
 	
-	aside{margin:5px 250px 5px 15px; }
 			
 	aside h1{
 		color:#885c32;
@@ -165,13 +166,21 @@ header nav a{
 		color:#885c32;
 		font-family:arial;
 		line-height:1.3em;
+	}
+	
+	#footer-wrapper{
+		clear:both;
+		width:100%;
+		margin: 0px auto;
+		height:150px;
+		background-color:#885c32
 	}		
 			
 	footer{
 		
 		clear:both;
-		margin:0 auto;
-		width:100%;
+width:80%;
+margin:0px auto;
 		height:150px;
 		background-color:#885c32;
 	}
@@ -192,13 +201,13 @@ footer p{
 #footer-contact{
 	float:left;
 	width:200px;
-	margin:20px 0px 0px 250px;
+	
 }
 
 #footer-follow{
 	float:right;
 	width:300px;
-	margin:20px 140px 0px 0px;
+	
 }
 
 #footer-follow ul li a{
