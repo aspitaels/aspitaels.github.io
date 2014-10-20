@@ -52,23 +52,77 @@ table {
 
 /*====================START HERE======================*/
 
-body{margin: 20px 200px 20px 200px;}
 
-li{list-style:none;}
+body{
+width:100%;}
 
-a{list-style:none;
-	text-decoration:none;}
+#site-header{background-color:#eff4da;
+	width:500px;
+	margin:0 auto;}
+
+#site-wrapper{
+	background-color:#eff4da;}
+
+
 
 #topnav{float:right;}
 
-#logo{float:left;
-	background:green;}
+#menu-wrapper{
+	margin:0 auto;
+	width:700px;
+	background-color:#885c32;}
 
-#main-menu{float:left;
-	text-transform: uppercase;
-	background:gray;
-	color:black;}
+#logo{
+	float:left;
+	background:#eff4da;}
+
+#main-menu{
+	background-color:#885c32;
+	margin:0 auto;
+	width:700px;
+}
+
+#main-menu ul li a{
+	background-color:#885c32;
+	float:left;
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	text-transform:uppercase;
+	font-family:arial;
+	font-style:bold;
 	
-	#page{background:white;}
+}
+	
+	#content{width:600px;}
+	
+	article h1{
+		color:#885c32;
+		font-family:arial;
+		font-style:bold;
+		text-transform:uppercase;
+		font-size:18pt;
+		padding: 5px, 0px, 5px, 0px;
+		}
+		
+	article h2{
+		color:#885c32;
+		font-family:arial;
+		font-style:bold;
+		text-transform:uppercase;
+		font-size:14pt;
+		padding:5px, 0px, 5px, 0px;
+	}
+	
+	article p{
+		font-family:arial;
+		font-size:11pt;
+		padding:5px, 0px, 5px, 0px;
+	}
+	
+	#page{background:white;
+		float:left;}
+		
+		#sidebar{float:right}
 
 article{clear:both}
