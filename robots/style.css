@@ -79,12 +79,12 @@ header nav a{
 	text-decoration:none;
 	font-family:arial;
 	color:#885c32;
-	margin: 5px;
+	margin: 0px;
 }
 
 #menu-wrapper{background-color:#885c32;
-	height:40px;
-	padding:5px;
+	height:35px;
+	padding:5 px;
 	
 }
 
@@ -113,9 +113,9 @@ header nav a{
 	#content-wrapper{
 		width:80%;
 		margin:0px auto;
-	}
+	padding:20px 0px 20px 0px;}
 	
-	article{width:400px;
+	article{width:60%;
 		float:left;
 	}
 	
@@ -126,6 +126,7 @@ header nav a{
 		text-transform:uppercase;
 		font-size:18pt;
 		line-height:1.3em;
+		padding:0px 0px 10px 0px;
 
 		}
 		
@@ -136,6 +137,7 @@ header nav a{
 		text-transform:uppercase;
 		font-size:14pt;
 		line-height:1.3em;
+		padding:0px 0px 8px 0px;
 	
 	}
 	
@@ -143,13 +145,16 @@ header nav a{
 		font-family:arial;
 		font-size:11pt;
 		line-height:1.3em;
+		padding:0px 0px 5px 0px;
 	
 	}
 	
 	#page{background:white;}
 		
 	
-	#sidebar{float:right;}
+	#sidebar{float:right;
+		width:30%;
+		margin:0px 0px 10px 0px;}
 	
 			
 	aside h1{
@@ -159,6 +164,7 @@ header nav a{
 		text-transform:uppercase;
 		font-size:14pt;
 		line-height:1.3em;
+		padding:0px 0px 5px 0px;
 	}
 	
 	#sidebar ul li a{
@@ -173,7 +179,8 @@ header nav a{
 		width:100%;
 		margin: 0px auto;
 		height:150px;
-		background-color:#885c32
+		background-color:#885c32;
+		padding:20px 0px 0px 0px;
 	}		
 			
 	footer{
