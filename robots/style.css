@@ -57,33 +57,46 @@ body{
 width:100%;}
 
 #site-header{background-color:#eff4da;
-	width:500px;
+	width:100%;
+	height:150px;
 	margin:0 auto;}
 
 #site-wrapper{
 	background-color:#eff4da;}
 
 
-
+#logo{float:left;
+	margin:10px 0px 0px 250px;}
 #topnav{float:right;}
 
-#menu-wrapper{
-	margin:0 auto;
-	width:700px;
-	background-color:#885c32;}
+header nav {
+	float:right;
+	margin: 5px 275px 0px 0px;
+	font-family:arial;
+	color:#885c32;
+}
+
+header nav a{
+	text-decoration:none;
+	font-family:arial;
+	color:#885c32;
+	margin: 5px;
+}
+
+#menu-wrapper{background-color:#885c32;
+	
+}
 
 #logo{
-	float:left;
 	background:#eff4da;}
 
 #main-menu{
-	background-color:#885c32;
 	margin:0 auto;
 	width:700px;
 }
 
 #main-menu ul li a{
-	background-color:#885c32;
+	
 	float:left;
 	text-decoration:none;
 	color:white;
@@ -94,7 +107,13 @@ width:100%;}
 	
 }
 	
-	#content{width:600px;}
+	#content-wrapper{
+		margin: 30px 0px 30px 0px;
+	}
+	
+	article{width:400px;
+		float:left;
+		margin:5px 15px 5px 250px}
 	
 	article h1{
 		color:#885c32;
@@ -102,7 +121,8 @@ width:100%;}
 		font-style:bold;
 		text-transform:uppercase;
 		font-size:18pt;
-		padding: 5px, 0px, 5px, 0px;
+		line-height:1.3em;
+
 		}
 		
 	article h2{
@@ -111,18 +131,76 @@ width:100%;}
 		font-style:bold;
 		text-transform:uppercase;
 		font-size:14pt;
-		padding:5px, 0px, 5px, 0px;
+		line-height:1.3em;
+	
 	}
 	
 	article p{
 		font-family:arial;
 		font-size:11pt;
-		padding:5px, 0px, 5px, 0px;
+		line-height:1.3em;
+	
 	}
 	
 	#page{background:white;
-		float:left;}
+		width:500px;}
 		
-		#sidebar{float:right}
+	
+	#sidebar{float:right;
+		width:300px;}
+	
+	aside{margin:5px 250px 5px 15px; }
+			
+	aside h1{
+		color:#885c32;
+		font-family:arial;
+		font-style:bold;
+		text-transform:uppercase;
+		font-size:14pt;
+		line-height:1.3em;
+	}
+	
+	#sidebar ul li a{
+		text-decoration:none;
+		color:#885c32;
+		font-family:arial;
+		line-height:1.3em;
+	}		
+			
+	footer{
+		
+		clear:both;
+		margin:0 auto;
+		width:100%;
+		height:150px;
+		background-color:#885c32;
+	}
+footer h1{
+	font-family:arial;
+	text-transform:uppercase;
+	color:beige;
+	
+}
 
-article{clear:both}
+footer p{
+	font-family:arial;
+	font-size:11pt;
+	line-height:1.3em;
+	color:white;
+}
+
+#footer-contact{
+	float:left;
+	width:200px;
+	margin:20px 0px 0px 250px;
+}
+
+#footer-follow{
+	float:right;
+	width:300px;
+	margin:20px 140px 0px 0px;
+}
+
+#footer-follow ul li a{
+	float:left;
+}
