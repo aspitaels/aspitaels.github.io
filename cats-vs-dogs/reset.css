@@ -112,7 +112,7 @@ a{
 	text-align:center;
 	border-top: 4px solid black; 
 	border-bottom: 4px solid black;
-	margin:0px 90px 0px 90px;
+	margin:0 auto;
 
 	
 }
@@ -121,7 +121,8 @@ section{clear:both}
 
 #articles{
 	float:left;
-	padding:20px 0px 20px 0px;
+	margin:0 auto;
+	
 
 	
 }
@@ -130,20 +131,22 @@ section{clear:both}
 #dog{
 float:left;
 	width:40%;
-	margin:0px 10px 0px 100px}
+	margin:0 auto;}
 
 #doggif{
 	width:450px;
+	margin:30px 0px 0px 0px;
 }
 
 #cat{
 	float:right;
 	width:40%;
-	margin:0px 100px 0px 10px;
+	margin:0 auto;
 }
 
 #catgif{
 	width:450px;
+	margin: 30px 0px 0px 0px;
 }
 
 a{list-style:none;
@@ -154,6 +157,7 @@ p{
 font-family:georgia;	
 font-size:17px;
 line-height:1.3em;
+margin:0px 0px 30px 0px;
 }
 
 
@@ -174,7 +178,7 @@ footer{
 	font-size:12px;
 	border-top: 4px solid black;
 	padding:10px;
-	margin: 0px 90px 0px 90px;
+	margin: 0 auto;
 		
 }
 
