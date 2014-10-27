@@ -194,14 +194,20 @@ em{
 	color:red;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:400px){
+	#logo{width:90%;
+		margin:0 auto;}
 	#articles{display:inline-block;}
-	#catgif{display:inline-block;}
-	#doggif{display:inline-block;}
+	#catgif{display:inline-block;
+		width:100%;}
+	#doggif{display:inline-block;
+		width:100%;}
 	#cat {float:none;margin:0 auto;width:90%;} 
 	#dog{float:none;margin:0 auto;width:90%;}
-	li {padding:.2em .25em 0em .25em;font-size:1em;}
-	#nav{height:1.5em;}
+	li {padding:.2em .25em 0em .25em;font-size:.75em;}
+	#nav{height:1em;}
 	body{width:90%;}
+	footer{font-size:.6em;
+		margin:0em 0em .5em 0em;}
 	
 	}
