@@ -73,3 +73,11 @@ img{float:left;
 
 #llama2 h1 h2 p {float:left;}
 
+h1{font-family:arial;
+	font-size:1.5em;
+	margin: 0em 0em .5em 0em;}
+
+h2{color:grey;
+	margin: 0em 0em .5em 0em;
+	}
+
