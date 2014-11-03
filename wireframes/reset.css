@@ -49,4 +49,4 @@ table {
 
 /* Add Styles Here */
 
-img src {width:500px;}
+img src {max-width:500px;}
