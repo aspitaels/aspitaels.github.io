@@ -76,14 +76,44 @@ html[xmlns] .clearfix { display: block; }
 
 /*======================start here========================*/
 h1{
-	font-family:'league_gothicregular';
+	font-family:georgia;
 	font-style:bold;
 	font-size:25px;
 	padding:10px 0px 10px 0px;
 }
 
+header{
+	margin: 0 auto;
+	width: 80%;}
 
 
+h3{
+	display:inline-block;
+	margin:0 auto;
+	font-family:'league_gothicregular';
+	text-transform:uppercase;
+	font-size:8em;
+	padding: 5px;
+}
+
+h4{display:inline-block;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	font-family:georgia;
+	font-style:italic;
+	font-size:4.5em;
+	color:gray;
+	border-top:1px solid gray;
+	border-bottom: 1px solid gray;
+	}
+	
+	header div {
+	width:5.5%;
+	padding:5px;
+	margin: 0px 0px 0px 0px;
+	display:inline-block;
+	border-top:3px solid gray;
+	border-bottom: 3px solid gray;}
 
 
 
@@ -106,7 +136,7 @@ a{
 }
 
 #nav{
-	
+	clear:both;
 	padding:.2em;
 	height:3.5em;
 	text-align:center;
