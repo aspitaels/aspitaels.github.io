@@ -49,4 +49,5 @@ table {
 
 /* Add Styles Here */
 
-img src {width:800px;}
+img src {float:left;
+	width:800px;}
