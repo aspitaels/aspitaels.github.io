@@ -73,3 +73,6 @@ html[xmlns] .clearfix { display: block; }
 
 
 /*======================start here========================*/
+
+div #slider .nivoSlider {margin:0 auto;
+	width:80%;}
