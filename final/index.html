@@ -4,11 +4,17 @@
 	<title>SPITAELS</title>
 	<link rel="stylesheet" href="reset.css" type="text/css" media"screen">
 	
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=EB+Garamond&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
 	
 	<link rel="stylesheet" href="nivoSlider/nivo-slider.css" type="text/css" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" 				  
-	type="text/javascript"></script>
-	<script src="nivoSlider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	<!-- jQuery library (served from Google) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="/js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
 	
 	
   </head>
@@ -34,25 +40,25 @@
 	</section>	
 	<section id='hnmh'>
 		
-		<div id="slider" class="nivoSlider">
+	<ul class="bxslider">
 		
-		<img src="images/hmnh1.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh2.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh3.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh4.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh5.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh6.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh7.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh8.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh9.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh10.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh11.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh12.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh13.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh14.jpg"alt="harvard_museum_of_natural_history">
-		<img src="images/hmnh15.jpg"alt="harvard_museum_of_natural_history">
+		<li><img src="images/hmnh1.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh2.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh3.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh4.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh5.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh6.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh7.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh8.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh9.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh10.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh11.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh12.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh13.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh14.jpg"alt="harvard_museum_of_natural_history"></li>
+		<li><img src="images/hmnh15.jpg"alt="harvard_museum_of_natural_history"></li>
+	</ul>
 		
-		</div>
 		
 		<h1>harvard museum of natural history rebrand</h1>
 		<img src="images/infoicon.png"alt=info>
@@ -128,10 +134,12 @@
 	</footer>
 	
 	<script type="text/javascript">
-	$(window).load(function() {
-	    $('#slider').nivoSlider();
+	$(document).ready(function(){
+	  $('.bxslider').bxSlider();
 	});
 	</script>
+	
+
 	
   </body>
 </html>

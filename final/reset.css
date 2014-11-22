@@ -74,5 +74,16 @@ html[xmlns] .clearfix { display: block; }
 
 /*======================start here========================*/
 
-div #slider .nivoSlider {margin:0 auto;
-	width:80%;}
+nav ul li a{list-style:none;
+	color:black;
+	text-decoration:none;
+	float:right;
+	font-family: 'Montserrat', sans-serif;
+	text-transform:uppercase;
+	padding:1em;
+	}
+
+h1{font-family: 'Montserrat', sans-serif;
+text-transform:uppercase;}
+
+p{font-family: 'EB Garamond', serif;}
