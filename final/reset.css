@@ -78,7 +78,7 @@ body{width:95%;
 	background-color:lightgrey}
 	
 #mainpage{z-index:-100;
-	background-color:orange;}
+	}
 
 	
 img {display:inline-block;}
@@ -91,17 +91,31 @@ li {list-style:none;
 	float:right;
 	font-family: 'Montserrat', sans-serif;
 	text-transform:uppercase;
+	padding:.5em;
 	}
+	
+a{text-decoration:none;
+	color:black;}
+	
 #hello{text-align:center;}
 
 
 nav{
 	position:fixed;
 	right:0;
-	margin:0 auto;}
+	margin:0 auto;
+	}
+	
+nav a:hover {
+	color:cyan;
+	}
+	
+nav .current a {
+	border-bottom: 2px solid black;
+
 
 #header-wrapper{
-	z-index:100;
+	z-index:10000;
 	height:20px;
 	width:200px;
 	padding:1em;

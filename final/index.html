@@ -31,20 +31,24 @@
 	
 		<div id='header-wrapper'>
 		<nav>
-			<ul>
-				<li><a ref="#">work</a></li>
-				<li><a ref="#">about</a></li>
+			<ul id="nav">
+				<li><a href="#about">about</a></li>
+				<li><a href="#work">work</a></li>
+				<li><a href="#home">home</a></li>
 			</ul>
 		</nav>
 		</div>
 	<header>
+			<div id=home>
 			<section id="hello">
 				<img src="images/hello.jpg"alt="hello">
 				<h1>welcome to the portfolio of Allison Spitaels</h1>
 			</section>
+			</div>
 	</header>
+	<div id="work">
 	<div id="mainpage">
-	<section id='ebola'>
+	<section id="ebola">
 		<ul class="bxslider">
 		<li><img src="images/ebola1.jpg"alt="ebola-infographic"></li>
 		<li><img src="images/ebola2.jpg"alt="ebola-infographic"></li>
@@ -53,7 +57,7 @@
 		<img src="images/infoicon.png"id='infobutton'alt="info">
 		<p> This infographic was made to help illustrate all of the factors that allowed ebola to thrive in West Africa. The factors include the history of ebola ( all recorded infections and deaths from Ebola's first outbreak in 1976 until Nov 5th 2014), doctor-to patient-ratios, total expenditure on health per capita, times of civil unrest, illiteracy rates, and poverty rates. The infographic compares the four affected countries (Liberia, Sierra Leone, Guinea, and Nigeria) to the United States. It shows how the region of West Africa was unprepared for a mass medical crisis.</p>
 	</section>	
-	<section id='hnmh'>
+	<section id="hnmh">
 		
 	<ul class="bxslider">
 		
@@ -107,8 +111,8 @@
 		
 		<div class="fluid-width-video-wrapper">
 		<ul class="bxslider">
-		<li><iframe src="http://player.vimeo.com/video/97127986" width="500" height="263" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
-		<iframe src="http://player.vimeo.com/video/28523422?title=0&amp;byline=0&amp;portrait=0&amp;color=4584be" width="800/embed/?moog_width=800" height="450" frameborder="0"></iframe>
+		<li><iframe src="//player.vimeo.com/video/97127987?byline=0" width="500" height="263" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
+		<li><iframe src="//player.vimeo.com/video/97127986?byline=0" width="500" height="263" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
 		</ul>
 		</div>
 		<h1>the digital museum of stolen art</h1>
@@ -151,6 +155,8 @@
 		<img src="images/infoicon.png"id='infobutton'alt="info">
 		<p> This was a redesign of the book: "The Elements Of Style" by William Struck Jr. My concept for the redesign was to make it easy to read (not cramming the text, spacing the sections, and color coding the example text) and make it visually interesting (using color and dynamic laser cut chapter openers). I bound the book using perfect binding and the slipcase and the chapter openers are laser cut.</p>
 	</section>
+	</div>
+	<div id="about">
 	<footer>
 		<img src="images/me.jpg"alt="allison_spitaels">
 		<h1>about me</h1>
@@ -160,6 +166,7 @@
 
 	</footer>
 	</div>
+	</div>
 	
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -168,6 +175,12 @@
 	});
 	</script>
 	
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#nav').onePageNav();
+	});
+	</script>
+
 
 	
   </body>
