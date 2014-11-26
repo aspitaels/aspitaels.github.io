@@ -109,9 +109,7 @@ nav{
 nav a:hover {
 	color:cyan;
 	}
-	
-nav .current a {
-	border-bottom: 2px solid black;
+
 
 
 #header-wrapper{
