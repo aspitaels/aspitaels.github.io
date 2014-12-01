@@ -16,33 +16,28 @@
 	<!-- bxSlider CSS file -->
 	<link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
 	
+	<script src="/js/plugins/jquery.fitvids.js"></script>
 	
-	<script src="fitvids/jquery.fitvids.js"></script>
-	<script>
-	  $(document).ready(function(){
-	    // Target your .container, .wrapper, .post, etc.
-	    $("#thing-with-videos").fitVids();
-	  });
-	</script>
+
 	
 	
   </head>
   <body>
 	
-		<div id='header-wrapper'>
+		<div id="header-wrapper">
 		<nav>
 			<ul id="nav">
-				<li><a href="#about">about</a></li>
-				<li><a href="#work">work</a></li>
-				<li><a href="#home">home</a></li>
+				<li class="current"><a href="#about">about</a></li>
+				<li class="current"><a href="#work">work</a></li>
+				<li class="current"><a href="#home">home</a></li>
 			</ul>
 		</nav>
 		</div>
 	<header>
-			<div id=home>
-			<section id="hello">
+			<div id="home">
+			<section class="hello">
 				<img src="images/hello.jpg"alt="hello">
-				<h1>welcome to the portfolio of Allison Spitaels</h1>
+				<h1>Welcome to the portfolio of Allison Spitaels</h1>
 			</section>
 			</div>
 	</header>
@@ -50,8 +45,8 @@
 	<div id="mainpage">
 	<section id="ebola">
 		<ul class="bxslider">
-		<li><img src="images/ebola1.jpg"alt="ebola-infographic"></li>
-		<li><img src="images/ebola2.jpg"alt="ebola-infographic"></li>
+		<li><img src="images/pug.jpg"alt="ebola-infographic"></li>
+		<li><img src="images/pug.jpg"alt="ebola-infographic"></li>
 		</ul>
 		<h1>ebola infographic</h1>
 		<img src="images/infoicon.png"id='infobutton'alt="info">
@@ -84,7 +79,11 @@
 		<p>The new mark embraces the antique nature of the Harvard Museum of Natural History, both in the age of the original museums that merged to create this museum and the age of the collection&#39;s content. The leaf references the Museum&#39;s star exhibit: the Glass Flowers. The glass flowers are an extremely detailed collection of glass models of exotic plants made by a father and son team of glass artists that started in 1886 and continued for fifty years. This collection brings in a majority of the tourist visitors. This international perspective is what led to the selection of simple and worldwide representation of a leaf. The leaf is also representation of one of the world&#39;s simplest forms of life: the sprout. The leaf also points to the left in the direction of the past. The leaf grows from the right stem of the capital H and acts as the crossbar of the letterform, overlapping the left stem. The H itself references the greater identity of Harvard.</p>
 	</section>	
 	<section id='emotion'>
-		<img src="images/emotion1.jpg"alt="e-motion_electric_car_rental_brand">
+		<ul class="bxslider">
+		<li><img src="images/emotion1.jpg"alt="e-motion_electric_car_rental_brand"></li>
+		<li><img src="images/pug.jpg"alt="ebola-infographic"></li>
+		<li><img src="images/pug.jpg"alt="ebola-infographic"></li>
+		</ul>
 		<h1>e motion branding</h1>
 		<img src="images/infoicon.png"id='infobutton'alt="info">
 		<p>This logo is for a fictional electric car rental company called E Motion. The logo is built up of four components, all working to promote the company&#39;s strong basis in technology. The viewer&#39;s first impression is the capital E representing the company name. Then the spark is noticed, which is the selling point that separates E Motion from its competitors. The next impression is the two bars which reference the double yellow line of the road or racing stripes; bringing the main service of E Motion to the forefront for the viewer. The last element is the whole mark is angled to reference moving forward; both in thinking and the action. <br>The clean form of the mark, and the absence of stereotypical "green" references will allow this logo to endure for some time before it becomes visually dated.</br></p>
@@ -111,8 +110,12 @@
 		
 		<div class="fluid-width-video-wrapper">
 		<ul class="bxslider">
-		<li><iframe src="//player.vimeo.com/video/97127987?byline=0" width="500" height="263" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
-		<li><iframe src="//player.vimeo.com/video/97127986?byline=0" width="500" height="263" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
+		<il>
+		<iframe src="http://player.vimeo.com/video/97127987" width="1024" height="768" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</il>
+		<il>
+		<iframe src="http://player.vimeo.com/video/97127986" width="1024" height="768" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</il>
 		</ul>
 		</div>
 		<h1>the digital museum of stolen art</h1>
@@ -158,11 +161,13 @@
 	</div>
 	<div id="about">
 	<footer>
-		<img src="images/me.jpg"alt="allison_spitaels">
+		<section class="about">
+		<img src="images/aboutimage.jpg"alt="allison_spitaels">
 		<h1>about me</h1>
-		<p>I am a senior graphic design major at Massachusetts College of Art and Design.I need to write more</p>
+		<p>I am a senior graphic design major at Massachusetts College of Art and Design. My skills include calligraphy, hand-lettering, illustration, and web design.</p>
 		<h2>contact me</h2>
 		<p>aspitaels@massart.edu</p>
+		</section>
 
 	</footer>
 	</div>
@@ -172,6 +177,7 @@
 	$(document).ready(function(){
 	  $('.bxslider').bxSlider();
 	video: true;
+	useCSS: false;
 	});
 	</script>
 	

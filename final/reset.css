@@ -83,7 +83,9 @@ body{width:95%;
 	
 img {display:inline-block;}
 
-.bx-wrapper img {margin: 0 auto;}	
+.bx-wrapper img {margin: 0 auto;}
+
+.bx-wrapper iframe{margin: 0 auto;}	
 
 li {list-style:none;
 	color:black;
@@ -110,15 +112,19 @@ nav a:hover {
 	color:cyan;
 	}
 
+.classCurrent{color:magenta;}
 
 
 #header-wrapper{
-	z-index:10000;
 	height:20px;
 	width:200px;
 	padding:1em;
 	margin: 0 auto;
 
+}
+
+nav {
+	z-index:1;
 }
 
 #infobutton{width:1em;
@@ -130,5 +136,45 @@ h1{font-family: 'Montserrat', sans-serif;
 text-transform:uppercase;
 }
 
+h2{font-family: 'Montserrat', sans-serif;
+text-transform:uppercase;
+}
+
 p{font-family: 'EB Garamond', serif;
 line-height:1.3em;}
+
+.hello{
+	position: relative;
+	text-align:center; 
+}
+
+.hello h1 { 
+   position: absolute; 
+   bottom: 90px; 
+   width: 100%;
+	}
+	
+.about{
+	position: relative;
+	text-align:center; 
+	}
+
+.about h1{ 
+   position: absolute; 
+   top: 35%; 
+   width: 100%;
+		}
+
+.about h2{ 
+	position: absolute; 
+	top: 45%; 
+	width: 100%;
+				}
+
+.about p{ 
+	position: absolute; 
+	top: 37%; 
+	width: 100%;
+	line-height:3em;
+				}
+			
