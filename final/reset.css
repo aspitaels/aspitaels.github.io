@@ -73,7 +73,7 @@ html[xmlns] .clearfix { display: block; }
 
 
 /*======================start here========================*/
-body{width:100%;
+body{width:95%;
 	margin:0 auto;
 	background-color:lightgrey}
 	
@@ -162,8 +162,12 @@ line-height:1.3em;}
 
 
 footer{text-align:center;
+	
 	}
-#copyright {color:white;
+#copyright {
+
+	display:inline-block;
+	color:white;
 	background-color:black;
 	height:2.5em;
 	width:100%;}
