@@ -73,7 +73,7 @@ html[xmlns] .clearfix { display: block; }
 
 
 /*======================start here========================*/
-body{width:95%;
+body{width:100%;
 	margin:0 auto;
 	background-color:lightgrey}
 	
@@ -86,6 +86,9 @@ img {display:inline-block;}
 .bx-wrapper img {margin: 0 auto;}
 
 .bx-wrapper iframe{margin: 0 auto;}	
+
+#video{margin:0 auto;
+	text-align:center;}
 
 li {list-style:none;
 	color:black;
@@ -154,27 +157,39 @@ line-height:1.3em;}
    width: 100%;
 	}
 	
-.about{
-	position: relative;
-	text-align:center; 
+
+
+
+
+footer{text-align:center;
 	}
-
-.about h1{ 
-   position: absolute; 
-   top: 35%; 
-   width: 100%;
+#copyright {color:white;
+	background-color:black;
+	height:2.5em;
+	width:100%;}
+	
+	
+	
+		.big_wrapper {
+			width:1024px;
+			margin:0 auto;	
 		}
-
-.about h2{ 
-	position: absolute; 
-	top: 45%; 
-	width: 100%;
-				}
-
-.about p{ 
-	position: absolute; 
-	top: 37%; 
-	width: 100%;
-	line-height:3em;
-				}
-			
+		div.wrapper{  
+		    margin:auto 0; /* important */  
+		    position:relative; /* important(so we can absolutely position the description div */  
+		}  
+		div.description{  
+		    position:absolute; /* absolute position (so we can position it where we want)*/  
+		    bottom:45%; /* position will be on bottom */    
+		    width:1024px;  
+		
+		    /* styling below */      
+		    font-size:1em;
+		    color:black;  
+		    /* opacity:0.6; /* transparency */  
+		    /*filter:alpha(opacity=60); /* IE transparency */  
+		}  
+		p.description_content{  
+		    padding:10px;  
+		    margin:0px;  
+		}	
