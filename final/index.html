@@ -43,14 +43,17 @@
 	</header>
 	<div id="work">
 	<div id="mainpage">
-	<section id="ebola">
+	<section class="work"id="ebola">
 		<ul class="bxslider">
 		<li><img src="images/pug.jpg"alt="ebola-infographic"></li>
 		<li><img src="images/pug.jpg"alt="ebola-infographic"></li>
 		</ul>
+		<div class="info">
 		<h1>ebola infographic</h1>
 		<img src="images/infoicon.png"id='infobutton'alt="info">
 		<p> This infographic was made to help illustrate all of the factors that allowed ebola to thrive in West Africa. The factors include the history of ebola ( all recorded infections and deaths from Ebola's first outbreak in 1976 until Nov 5th 2014), doctor-to patient-ratios, total expenditure on health per capita, times of civil unrest, illiteracy rates, and poverty rates. The infographic compares the four affected countries (Liberia, Sierra Leone, Guinea, and Nigeria) to the United States. It shows how the region of West Africa was unprepared for a mass medical crisis.</p>
+	</div>
+	<div class='show-info'><img src="images/infoicon.png" alt="info"></div>
 	</section>	
 	<section id="hnmh">
 		
@@ -214,6 +217,22 @@
 	});
 	</script>
 
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+	       $(".show-info").click(function() {
+	          $(this).siblings(".info").show();
+	          $(this).hide();
+	       })
+
+	       $(".infobutton").click(function() {
+	       	 var $info = $(this).closest(".info");
+	          $info.siblings(".show-info").show();
+	          $info.hide();
+	       })
+
+		});
+		</script>
 
 	
   </body>
