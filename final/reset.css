@@ -179,6 +179,16 @@ line-height:1.3em;}
 
 .info { display:none; 
 	
+.show-info {
+	position: absolute;
+	bottom: 15px;
+	right: 50px;
+	z-index: 50;
+}
+
+.show-info img {
+	width:30px;
+}
 
 footer{text-align:center;
 	}
