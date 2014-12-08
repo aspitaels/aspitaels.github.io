@@ -74,21 +74,22 @@ html[xmlns] .clearfix { display: block; }
 
 /*======================start here========================*/
 body{width:80%;
-	margin:0 auto;
-	background-color:lightgrey}
+	margin:0 auto;}
 	
 #mainpage{z-index:-100;
 	}
 
 	
-img {display:inline-block;}
+img {display:inline-block;
+	width:100%;}
 
 .bx-wrapper img {margin: 0 auto;}
 
 .bx-wrapper iframe{margin: 0 auto;}	
 
 #video{margin:0 auto;
-	text-align:center;}
+	text-align:center;
+	width:100%;}
 
 li {list-style:none;
 	color:black;
@@ -171,7 +172,8 @@ line-height:1.3em;}
 	position:relative;
 	}
 
-.info img {
+.infobutton {
+	width:30px;
 	position:absolute;
 	top:20px;
 	right:20px;
@@ -205,7 +207,6 @@ footer{text-align:center;
 	
 	
 		.big_wrapper {
-			width:1024px;
 			margin:0 auto;	
 		}
 		div.wrapper{  
@@ -214,8 +215,10 @@ footer{text-align:center;
 		}  
 		div.description{  
 		    position:absolute; /* absolute position (so we can position it where we want)*/  
-		    bottom:45%; /* position will be on bottom */    
-		    width:1024px;  
+		 
+		margin:0 auto;   
+		bottom:45%; /* position will be on bottom */    
+		    width:100%;  
 		
 		    /* styling below */      
 		    font-size:1em;
